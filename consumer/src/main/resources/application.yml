@@ -1,0 +1,10 @@
+server:
+  port: 9091
+
+spring:
+  dubbo:
+    application:
+      name: consumer
+    registry:
+      address: zookeeper://132.232.102.221:2181
+    scan: com.miao

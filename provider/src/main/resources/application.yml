@@ -1,0 +1,13 @@
+server:
+  port: 9090
+
+spring:
+  dubbo:
+    application:
+      name: provider
+    registry:
+      address: zookeeper://132.232.102.221:2181
+    protocol:
+      name: dubbo
+      port: 20880
+    scan: com.miao
